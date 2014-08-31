@@ -41,6 +41,11 @@ i {
 	font-weight: lighter;
 	font-size: 13px;
 }
+.links {
+	text-decoration: none;
+	color: 00B4CD;
+}
+
 /* Widescreens */
 @media screen and (min-width: 1029px) {
 li {
