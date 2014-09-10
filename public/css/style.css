@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300);
 
+
 a, body, dl, dt, dd, ol, li, h1, h2, h3, h4, h5, h6, p, pre, code, blockquote, {
 	padding:0;
 	border-width:0;
@@ -46,6 +47,9 @@ i {
 .links {
 	text-decoration: none;
 	color: #00B4CD;
+}
+p {
+	color: 464444;
 }
 
 /**
@@ -159,7 +163,7 @@ i {
  * Tablet
  * @type {max-width:1029}
  */
-@media screen and (min-width: 692px) and (max-width: 1029px) {
+@media screen and (min-width: 693px) and (max-width: 1029px) {
 	li {
 		display: inline-block;
 		font-family: "times new roman light";
@@ -228,8 +232,15 @@ i {
 		margin-left: 20px;
 		margin-bottom: 40px;
 	}
+	#left_column {
+		margin-bottom: 20px;
+	}
 	img {
 		margin: 0 auto;
+	}
+	.pagepic {
+		width: 684px;
+		margin-bottom: 20px;
 	}
 	.grayscale img {
 		filter: grayscale(1);
@@ -299,15 +310,18 @@ i {
 	#wrap {
 		display: block;
 		position: relative;
-		width: 300px;
+		width: 400px;
 		margin: 0 auto;
 		margin-top: 20px;
 	}
 	.block {
-		margin: 0 auto;
+		margin-top: 0px;
 		margin-bottom: 40px;
+		margin-left: 40px;
+		margin-right: 40px;
+
 	}
-	img {
+	img,{
 		margin: 0 auto;
 	}
 	#logo {
