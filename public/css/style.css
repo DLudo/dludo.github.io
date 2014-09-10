@@ -71,7 +71,7 @@ i {
 	}
 	#menu ul li {
 		display: inline-block;
-		width: 25%;
+		width: 24%;
 		text-align: center;
 		padding: 0;
 		text-transform: uppercase;
@@ -179,7 +179,6 @@ i {
 	#menu ul {
 		display: block;
 		position: relative;
-		width: 550px;
 		text-transform: uppercase;
 		bottom: 10px;
 
