@@ -159,7 +159,7 @@ i {
  * Tablet
  * @type {max-width:1029}
  */
-@media screen and (max-width: 1029px) {
+@media screen and (min-width: 692px) and (max-width: 1029px) {
 	li {
 		display: inline-block;
 		font-family: "times new roman light";
@@ -167,8 +167,7 @@ i {
 		letter-spacing: 3px;
 		width: 275px;
 		text-align: center;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 20px;
 	}
 
 	ul {
@@ -180,9 +179,10 @@ i {
 	#menu ul {
 		display: block;
 		position: relative;
-		width: 604px;
-		padding: 10px;
-		top: 50px;
+		width: 550px;
+		text-transform: uppercase;
+		bottom: 10px;
+
 	}
 	img {
 		position: relative;
@@ -201,7 +201,7 @@ i {
 		position: relative;
 		text-align: center;
 		margin: 0 auto;
-		margin-bottom: 50px;
+		margin-bottom: 30px;
 	}
 	#iconlist {
 		padding:10px;
@@ -220,7 +220,7 @@ i {
 		position: relative;
 		width: 684px;
 		margin: 0 auto;
-		margin-top: 40px;
+		margin-top: 20px;
 	}
 	.block {
 		width: 300px;
@@ -254,9 +254,9 @@ i {
 
 /**
  * Smartphone
- * @type {max-width:604}
+ * @type {max-width:692}
  */
-@media screen and (max-width: 604px) {
+@media screen and (max-width: 692px) {
 	li {
 		display: inline-block;
 		font-family: "times new roman light";
@@ -271,24 +271,19 @@ i {
 		position: relative;
 		width: 300px;
 	}
-	img {
-		position: relative;
-		margin: 0 auto;
-		margin-left: 185px;
-		margin-right: 185px;
-	}
 	header {
 		position: relative;
 		width: 500px;
 		margin: 0 auto;
 		top: 20px;
 	}
-	ul#menu {
+	#menu ul {
 		display: block;
 		position: relative;
-		width: 604px;
 		padding: 10px;
-		top: 50px;
+		margin: 0 auto;
+		text-transform: uppercase;
+
 	}
 	#iconlist {
 		padding:10px;
@@ -305,12 +300,23 @@ i {
 	#wrap {
 		display: block;
 		position: relative;
-		width: 344px;
+		width: 300px;
 		margin: 0 auto;
-		margin-top: 40px;
+		margin-top: 20px;
+	}
+	.block {
+		margin: 0 auto;
+		margin-bottom: 40px;
 	}
 	img {
 		margin: 0 auto;
+	}
+	#logo {
+		display: block;
+		position: relative;
+		text-align: center;
+		margin: 0 auto;
+		margin-bottom: 30px;
 	}
 }
 
