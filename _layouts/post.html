@@ -10,4 +10,7 @@ layout: default
 	{% for image in page.images %}
 	<img src="{{ image.url }}" alt="{{ image.name }}" title="{{ image.name }}" class="pagepic">
 	{% endfor %}
+	{% for video in page.videos %}
+	<iframe src="{{ video.url }}" frameborder="0" width="100%" height="500"></iframe>
+	{% endfor %}
 </div>
