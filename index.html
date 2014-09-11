@@ -8,8 +8,8 @@ title: Ludovic Delespierre
 		<a href="{{ post.url }}">
 			{% if post.thumbType == 'image' %}
 			<img src="{{ post.thumb }}">
-			{% elseif post.thumbType == 'video' %}
-			<iframe width="300" height="169" src="{{ post.thumb }}" frameborder="0" allowfullscreen></iframe>
+			{% elsif post.thumbType == 'video' %}
+			<iframe width="300" height="169" src="{{ post.thumb }}" frameborder="0" awebkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			{% else %}
 			<span>{{ post.title }}</span>
 			{% endif %}
@@ -20,64 +20,3 @@ title: Ludovic Delespierre
 </div>
 {% endfor %}
 
-<hr>
-
-<div class="block animated fadeInUp">
-	<section class="grayscale">
-		<a href="/project/template/"><img src="/public/images/thumb_1.jpg"></a>
-	</section>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<section class="grayscale">
-		<img src="/public/images/thumb_2.png">
-	</section>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<section class="grayscale">
-		<img src="/public/images/avodd_thumb.jpg">
-	</section>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<section class="grayscale">
-		<img src="/public/images/jardinclass_thumb.jpg">
-	</section>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<section class="grayscale">
-		<img src="/public/images/dabee_thumb.jpg">
-	</section>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<section class="grayscale">
-		<iframe src="https://player.vimeo.com/video/79570447" width="300" height="169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	</section>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<iframe src="https://player.vimeo.com/video/104791036" width="300" height="169" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
-
-<div class="block animated fadeInUp">
-	<iframe width="300" height="169" src="https://www.youtube.com/embed/rUZDNhBvAvo" frameborder="0" allowfullscreen></iframe>
-	<h3>NOM DU PROJET</h3>
-	<i>type de projet</i>
-</div>
