@@ -1,12 +1,12 @@
 ---
 layout: post
 category: sound
-title: LD_Animation
+title: Ludovic Delespierre Animation
 thumb: https://player.vimeo.com/video/79570447
 thumbType: video
-images:
+videos:
 - url: https://player.vimeo.com/video/79570447
-  name: ld_animation  
+  name: ld_animation
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
