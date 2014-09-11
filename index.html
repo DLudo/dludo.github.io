@@ -2,6 +2,26 @@
 layout: default
 title: Ludovic Delespierre
 ---
+{% for post in site.posts %}
+<div class="block animated fadeInUp">
+	<section class="grayscale">
+		<a href="{{ post.url }}">
+			{% if post.thumbType == 'image' %}
+			<img src="{{ post.thumb }}">
+			{% elseif post.thumbType == 'video' %}
+			<iframe width="300" height="169" src="{{ post.thumb }}" frameborder="0" allowfullscreen></iframe>
+			{% else %}
+			<span>{{ post.title }}</span>
+			{% endif %}
+		</a>
+	</section>
+	<h3>{{ post.title | upcase }}</h3>
+	<i>{{ post.category }}</i>
+</div>
+{% endfor %}
+
+<hr>
+
 <div class="block animated fadeInUp">
 	<section class="grayscale">
 		<a href="/project/template/"><img src="/public/images/thumb_1.jpg"></a>
