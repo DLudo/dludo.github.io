@@ -1,7 +1,7 @@
 ---
 layout: post
 category: sound
-title: Ludovic Delespierre Animation
+title: LD Animation
 thumb: https://player.vimeo.com/video/79570447
 thumbType: video
 videos:
