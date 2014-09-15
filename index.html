@@ -10,6 +10,8 @@ title: Ludovic Delespierre
 			<img src="{{ post.thumb }}">
 			{% elsif post.thumbType == 'video' %}
 			<iframe width="300" height="169" src="{{ post.thumb }}" frameborder="0" awebkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+			{% elsif post.thumbType == 'audio' %}
+			<img src="{{ post.thumb }}">
 			{% else %}
 			<span>{{ post.title }}</span>
 			{% endif %}

@@ -8,12 +8,17 @@ title: Sound Design
     <a href="{{ post.url }}">
       {% if post.thumbType == 'video' %}
       <iframe width="300" height="169" src="{{ post.thumb }}" frameborder="0" awebkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      {% elsif post.thumbType == 'audio' %}
+      <img src="{{ post.thumb }}">
       {% endif %}
     </a>
   </section>
   {% if post.thumbType == 'video' %}
   <h3><a href="{{ post.url }}">{{ post.title | upcase }}</a></h3>
   <i>{{ post.category }}</i>
+  {% elsif post.thumbType == 'audio' %}
+  <h3><a href="{{ post.url }}">{{ post.title | upcase }}</a></h3>    
+  <i>{{ post.category }}</i>   
   {% endif %}
 </div>
 {% endfor %}

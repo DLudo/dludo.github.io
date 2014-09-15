@@ -311,6 +311,15 @@ p {
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
+	#left_column {
+		margin-bottom: 20px;
+}
+	#right_column img {
+		width: 400px;
+		margin-bottom: 20px;
+	}
+
+
 }
 
 /**
