@@ -33,15 +33,19 @@ body {
 	color: #00B4CD;
 	top: 50px;
 }
-h3 a {
+h3, h3 a {
+	margin: 0 auto;
+	margin-top: 1em;
+	margin-bottom: 7px;
 	font-family: 'Libre Baskerville';
 	letter-spacing: 2px;
 	line-height: 10px;
 	font-size: 16px;
 	text-decoration: none;
+	text-transform: uppercase;
 	color: #00B4CD;
 }
-li, a {
+li a {
 	font-family: 'Libre Baskerville';
 	display: inline-block;
 	font-size: 20px;
@@ -53,6 +57,18 @@ li, a {
 p {
 	color: 464444;
 }
+#top {
+		padding:10px;
+		text-align: right;
+	}
+.icon {
+		position: relative;
+		display: inline-block;
+		margin: 5px;
+		width: 30px;
+		height: 30px;
+		z-index: 5;
+	}
 
 /**
  * Widescreen
@@ -93,18 +109,6 @@ p {
 		margin: 0 auto;
 		margin-top: 40px;
 	}
-	#iconlist {
-		padding:10px;
-		text-align: right;
-	}
-	.icon {
-		position: relative;
-		display: inline-block;
-		margin: 5px;
-		width: 30px;
-		height: 30px;
-		z-index: 5;
-	}
 	.block {
 		display: inline-block;
 		margin-right: 20px;
@@ -142,7 +146,7 @@ p {
 		text-align: right;
 		width: 710px;
 	}
-	.pagepic {
+	#right_column img {
 		width: 710px;
 		margin-bottom: 20px;
 	}
@@ -195,18 +199,6 @@ p {
 		margin: 0 auto;
 		margin-bottom: 30px;
 	}
-	#iconlist {
-		padding:10px;
-		text-align: right;
-	}
-	.icon {
-		position: relative;
-		display: inline-block;
-		margin: 5px;
-		width: 30px;
-		height: 30px;
-		z-index: 5;
-	}
 	#wrap {
 		display: block;
 		position: relative;
@@ -227,7 +219,7 @@ p {
 	img {
 		margin: 0 auto;
 	}
-	.pagepic {
+	#right_column img {
 		width: 684px;
 		margin-bottom: 20px;
 	}
