@@ -3,17 +3,15 @@ layout: default
 title: Graphic Design
 ---
 {% for post in site.posts %}
+{% if post.thumbType == 'image' %}
 <div class="block animated fadeInUp">
 	<section class="grayscale">
 		<a href="{{ post.url }}">
-			{% if post.thumbType == 'image' %}
 			<img src="{{ post.thumb }}">
-			{% endif %}
 		</a>
 	</section>
-	{% if post.thumbType == 'image' %}
 	<h3><a href="{{ post.url }}">{{ post.title | upcase }}</a></h3>
 	<i>{{ post.category }}</i>
-	{% endif %}
 </div>
+{% endif %}
 {% endfor %}

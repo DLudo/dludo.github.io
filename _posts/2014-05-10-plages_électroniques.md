@@ -1,16 +1,12 @@
 ---
 layout: post
-category: graphic
-title: Losion Ep Covers
-thumb: /public/images/thumb_1.jpg
-thumbType: image
-images:
-- url: /public/images/inflexion.jpg
-  name: Inflexion
-- url: /public/images/reversing_gravity.jpg
-  name: Reversing Gravity  
-- url: /public/images/losion/the_earthmaster.jpg
-  name: The Earthmaster
+category: sound
+title: Plages Électro
+thumb: /public/images/plages_électroniques/thumb_plages_électroniques.jpg
+thumbType: video
+videos:
+- url: https://player.vimeo.com/video/104791036
+  name: plages_électroniques
 ---
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

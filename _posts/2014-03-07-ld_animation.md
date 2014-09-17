@@ -2,7 +2,7 @@
 layout: post
 category: sound
 title: LD Animation
-thumb: https://player.vimeo.com/video/79570447
+thumb: /public/images/ld_animation/thumb_ld_animation.jpg
 thumbType: video
 videos:
 - url: https://player.vimeo.com/video/79570447
