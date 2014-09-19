@@ -1,6 +1,6 @@
 ---
 layout: post
-category: sound
+category: Motion & Sound Design
 title: LD Animation
 thumb: /public/images/ld_animation/thumb_ld_animation.jpg
 thumbType: video

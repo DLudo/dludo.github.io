@@ -1,6 +1,6 @@
 ---
 layout: post
-category: sound
+category: Music 
 title: Abyssal Fields
 thumb: /public/images/abyssal_fields/thumb_abyssal_fields.jpg
 thumbType: video

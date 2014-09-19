@@ -1,6 +1,6 @@
 ---
 layout: post
-category: graphic
+category: Logos
 title: Various Logos
 thumb: /public/images/various_logos/various_logos_thumb.jpg
 thumbType: image

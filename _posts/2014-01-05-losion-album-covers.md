@@ -1,6 +1,6 @@
 ---
 layout: post
-category: graphic
+category: Illustrations
 title: Losion Ep Covers
 thumb: /public/images/thumb_1.jpg
 thumbType: image

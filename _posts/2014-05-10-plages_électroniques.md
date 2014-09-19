@@ -1,6 +1,6 @@
 ---
 layout: post
-category: sound
+category: Motion & Sound Design
 title: Plages Électro
 thumb: /public/images/thumb_electro.jpg
 thumbType: video

@@ -1,6 +1,6 @@
 ---
 layout: post
-category: graphic
+category: Branding
 title: Jardin Class
 thumb: /public/images/jardin_class/jardinclass_thumb.jpg
 thumbType: image
