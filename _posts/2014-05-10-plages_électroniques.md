@@ -2,7 +2,7 @@
 layout: post
 category: sound
 title: Plages Électro
-thumb: /public/images/thumb_plages_électroniques.jpg
+thumb: /public/images/thumb_1.jpg
 thumbType: video
 videos:
 - url: https://player.vimeo.com/video/104791036
