@@ -69,7 +69,11 @@ p {
 		height: 30px;
 		z-index: 5;
 	}
-
+#about
+	{
+		padding: 10px;
+		background-color: rgb(34, 34, 34);
+	}
 /**
  * Widescreen
  * @type {min-width:1029}
