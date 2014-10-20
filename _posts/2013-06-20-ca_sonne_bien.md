@@ -44,8 +44,8 @@ images:
 - url: /public/images/ca_sonne_bien/MAR1489.jpg
   name: MAR1489                                                                    
 ---
-Self Project dedicated to newbies music producers. There bunch of hint that 
-i would love to had been told about when i began trough this. 
+Self Project dedicated to newbies music producers. There is bunch of hints that 
+i would love to had been told about when i was begining. 
 Unlike most documentations found on the internet, i focus on the real utility
 of each tool that manipulates sounds, and why a missed step cannot be that
 corrected with eqs, effects etc...

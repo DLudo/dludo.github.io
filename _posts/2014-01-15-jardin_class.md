@@ -54,5 +54,5 @@ images:
 - url: /public/images/jardin_class/jardin_class24.jpg
   name: jardin_class24                               
 ---
-Custom purpose made for an freelancer garderner. His
-Last name "Claes" inspired him for the name of his company.
+Custom purpose made for an freelancer garderner. The name
+of his company was inspired by his last name claes.

@@ -13,9 +13,9 @@ images:
 - url: /public/images/losion/the_earthmaster.jpg
   name: The Earthmaster
 ---
-Losion is a self music project which contain numerous influences.
-the eps result from a balance between electronic music with synthesis
-and instrumental music with sound design by noise.
+Losion is a self music project which contains various influences.
+These tunes result from a balance between electronic music with synthesis
+and instrumental music with sound design from noise.
 This project tends to improve my sound design skills which let me use 
 them trough motions designs.
 
