@@ -382,7 +382,6 @@ p {
 
 .link-block-2 {
   position: relative;
-  overflow: visible;
   color: #fff;
   font-weight: 300;
 }
@@ -911,15 +910,14 @@ p {
 }
 
 .grid-1 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  grid-auto-flow: row;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
-  -ms-grid-columns: 1fr 0.5fr;
-  grid-template-columns: 1fr 0.5fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-  -o-object-fit: cover;
-  object-fit: cover;
+  -ms-grid-columns: minmax(65vw, 0.25fr) minmax(35%, 0.25fr);
+  grid-template-columns: minmax(65vw, 0.25fr) minmax(35%, 0.25fr);
+  -ms-grid-rows: minmax(50%, 1px) minmax(50%, 1fr);
+  grid-template-rows: minmax(50%, 1px) minmax(50%, 1fr);
 }
 
 .image-19 {
@@ -932,10 +930,10 @@ p {
   margin-bottom: 5px;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
-  -ms-grid-columns: 0.5fr 1fr;
-  grid-template-columns: 0.5fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  -ms-grid-columns: minmax(35%, 0.25fr) minmax(65vw, 0.25fr);
+  grid-template-columns: minmax(35%, 0.25fr) minmax(65vw, 0.25fr);
+  -ms-grid-rows: minmax(50%, 1px) minmax(50%, 1fr);
+  grid-template-rows: minmax(50%, 1px) minmax(50%, 1fr);
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -1040,6 +1038,13 @@ p {
   position: relative;
   color: #fff;
   font-weight: 300;
+}
+
+.image-24 {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 991px) {
@@ -1305,6 +1310,8 @@ p {
 
   .image-22 {
     height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
   }
 
   .image-23 {
